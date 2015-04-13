@@ -11,7 +11,7 @@ public class MWeatherOpenHelper extends SQLiteOpenHelper {
 	/**
 	 * Province±ÌΩ®±Ì”Ôæ‰
 	 */
-	public static final String CREATE_PROVINCE = "creat table Province ("
+	public static final String CREATE_PROVINCE = "create table Province ("
 			+"id integer primary key autoincrement, "
 			+"province_name text, "
 			+"province_code text)";
@@ -31,7 +31,7 @@ public class MWeatherOpenHelper extends SQLiteOpenHelper {
 	public static final String CREATE_COUNTY = "create table County ("
 			+"id integer primary key autoincrement, "
 			+"county_name text, "
-			+"dounty_code text, "
+			+"county_code text, "
 			+"city_id integer)";
 
 	public MWeatherOpenHelper(Context context, String name,
